@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+      function openGarage() {
+        var xmlHttp = null;
+        xmlHttp = new XMLHttpRequest();
+        xmlHttp.open("GET","http://50.131.215.126:3000/GARAGE/CLOSE",true);
+        xmlHttp.send();
+      }
+      window.onload = openGarage;
+    </script>
+  </head>
+  <body>
+    Welcome home! You are close the garage!
+  </body>
+
+</html>
